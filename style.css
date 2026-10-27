@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: #6d28d9;
+    margin-bottom: 5px;
+}
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+.total-box {
+    background-color: #6d28d9;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.total-box h3,
+.total-box h2 {
+    margin: 6px;
+    color: white;
+}
+.form-box,
+.table-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px #ddd;
+}
+h2 {
+    color: #6d28d9;
+    font-size: 21px;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.add-btn {
+    width: 100%;
+    margin-top: 18px;
+    background-color: #6d28d9;
+    font-size: 16px;
+}
+.add-btn:hover {
+    background-color: #5b21b6;
+}
+.table-scroll {
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th,
+td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+th {
+    background-color: #ede9fe;
+    color: #5b21b6;
+}
+.delete-btn {
+    background-color: #dc2626;
+}
+.delete-btn:hover {
+    background-color: #b91c1c;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .form-box,
+    .table-box {
+        padding: 12px;
+    }
+    th,
+    td {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+}
