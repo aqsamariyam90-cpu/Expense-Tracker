@@ -10,11 +10,6 @@
     <div class="container">
         <h1>Expense Tracker</h1>
         <p class="subtitle">Manage your daily expenses easily</p>
-        <div class="table-box">
-            <h2>Expense Records</h2><div class="total-box">
-            <h3>Total Expenses</h3>
-            <h2>Rs. <span id="totalExpense">0</span></h2>
-        </div>
         <div class="form-box">
             <h2>Add New Expense</h2>
             <form id="expenseForm">
@@ -38,6 +33,11 @@
                 <label for="date">Date</label>
                 <input type="date" id="date" required>
                 <button type="submit" class="add-btn">+ Add Expense</button>
+                <div class="table-box">
+            <h2>Expense Records</h2><div class="total-box">
+            <h3>Total Expenses</h3>
+            <h2>Rs. <span id="totalExpense">0</span></h2>
+        </div>
             </form>
         </div>
             <div class="table-scroll">

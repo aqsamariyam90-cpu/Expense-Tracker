@@ -6,13 +6,13 @@ body {
     color: #333;
 }
 .container {
+    width: 90%;
     max-width: 900px;
     margin: auto;
 }
 h1 {
-    text-align: center;
     color: #6d28d9;
-    margin-bottom: 5px;
+    text-align: center;
 }
 .subtitle {
     text-align: center;
@@ -22,55 +22,50 @@ h1 {
 .total-box {
     background-color: #6d28d9;
     color: white;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 20px;
     text-align: center;
     margin-bottom: 20px;
+    border-radius: 8px;
 }
 .total-box h3,
 .total-box h2 {
-    margin: 6px;
     color: white;
+    margin: 8px;
 }
 .form-box,
 .table-box {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 8px #ddd;
+    border-radius: 8px;
 }
 h2 {
     color: #6d28d9;
-    font-size: 21px;
 }
 label {
     display: block;
     margin-top: 12px;
-    margin-bottom: 6px;
-    font-weight: bold;
+    margin-bottom: 5px;
 }
 input,
 select {
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 15px;
 }
 button {
-    border: none;
     padding: 10px 15px;
+    border: none;
     border-radius: 5px;
-    cursor: pointer;
     color: white;
+    cursor: pointer;
 }
 .add-btn {
+    background-color: #6d28d9;
     width: 100%;
     margin-top: 18px;
-    background-color: #6d28d9;
-    font-size: 16px;
 }
 .add-btn:hover {
     background-color: #5b21b6;
@@ -85,23 +80,23 @@ table {
 }
 th,
 td {
-    padding: 12px 10px;
+    padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #eee;
+    border: 1px solid #ddd;
 }
 th {
     background-color: #ede9fe;
-    color: #5b21b6;
+    color: #6d28d9;
 }
 .delete-btn {
     background-color: #dc2626;
 }
-.delete-btn:hover {
-    background-color: #b91c1c;
-}
 @media (max-width: 600px) {
     body {
         padding: 10px;
+    }
+    .container {
+        width: 100%;
     }
     .form-box,
     .table-box {
@@ -109,7 +104,7 @@ th {
     }
     th,
     td {
-        padding: 10px 8px;
-        font-size: 13px;
+        padding: 8px;
+        font-size: 12px;
     }
 }
