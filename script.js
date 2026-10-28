@@ -20,6 +20,7 @@ function displayExpenses() {
             cell.textContent = value;
             row.appendChild(cell);
         });
+       // Delete button
         let cell = document.createElement("td");
         let btn = document.createElement("button");
         btn.textContent = "Delete";
